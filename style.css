@@ -713,8 +713,8 @@ p {
 {
     text-transform: uppercase;
     letter-spacing: 2.5px;
-    color: #FFFFFF !important;
-    background-color: #F47621;
+    color: #333333 !important;
+    background-color: #FFFFFF;
     border: none;
     border-radius: 45px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -722,13 +722,14 @@ p {
     cursor: pointer;
     outline: none;
     margin: 10px;
+    font-weight: bold;
 }
 .navbar_button:hover
 {
-    background-color: #2EE59D;
-  box-shadow: 0px 15px 20px #63CADF;
+  
   color: #F3976C !important;
   transform: translateY(-7px);
+  box-shadow: 0px 15px 20px #63CADF;
 }
 
 h2 {
@@ -809,13 +810,15 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F47621;
-    color: #FFFFFF!important;
+    background: #FFFFFF;
+    color: #000000!important;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #F3976C!important;
+    transform: translateY(-7px);
+  box-shadow: 0px 15px 20px #63CADF;
 }
 
 .ltc-white {
