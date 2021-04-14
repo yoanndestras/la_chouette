@@ -5,7 +5,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: 'Mukta', sans-serif !important;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 a,
@@ -101,7 +101,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc button:hover {
@@ -445,6 +445,10 @@ nav .caret {
     margin-top: 10px;
     margin-bottom: 40px;
 }
+.p
+{
+    font-size: 15px !important;
+}
 
 .btn {
     margin: 0 5px 5px 0;
@@ -649,9 +653,10 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";
+    font-family: 'Poppins', sans-serif !important;
     font-weight: 400;
     color: #575757!important;
+    
 }
 
 .container {
@@ -677,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -687,7 +692,7 @@ p {
 
 .h1 {
     font-size: 20px;
-    font-family: "Open Sans";
+    font-family: 'Poppins', sans-serif !important;
 }
 
 .cta-hero {
@@ -697,11 +702,33 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    letter-spacing: 2.5px;
 }
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 20px auto 20px auto;
+}
+.navbar_button
+{
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #FFFFFF !important;
+    background-color: #F3976C;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin: 10px;
+}
+.navbar_button:hover
+{
+    background-color: #2EE59D;
+  box-shadow: 0px 15px 20px #63CADF;
+  color: #F3976C !important;
+  transform: translateY(-7px);
 }
 
 h2 {
@@ -775,7 +802,10 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #63CADF!important;
+}
+.tp-white {
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
